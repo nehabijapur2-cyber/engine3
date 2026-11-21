@@ -1,0 +1,21 @@
+{
+  "name": "pet-rescue-platform",
+  "version": "1.0.0",
+  "description": "Pet Rescue and Animal Welfare Platform - Phase 1",
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "start:backend": "npm --prefix backend start",
+    "build:frontend": "npm --prefix frontend run build",
+    "test:api": "node backend/test-api.js"
+  },
+  "keywords": [
+    "pet-rescue",
+    "animal-welfare",
+    "react",
+    "nodejs",
+    "mongodb"
+  ],
+  "author": "",
+  "license": "ISC"
+}
